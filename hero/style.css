@@ -1,0 +1,132 @@
+*:after, *:before {
+  box-sizing: border-box; }
+
+body, html {
+  width: 100%;
+  height: 100%; }
+
+body {
+  background: #fff;
+  padding: 0;
+  margin: 0;
+  color: #222;
+  font: 100%/1.4 Tahoma, arial, sans-serif; }
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+.cf:after,
+.cf:before {
+  content: '';
+  display: table; }
+
+.cf:after {
+  clear: both; }
+
+.background_image {
+  max-width: 1280px;
+  max-height: 1024px;
+  background-image: url("../img/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
+
+.logo_small {
+  width: 51px;
+  height: 58px;
+  margin: 0 auto;
+  background-image: url("../img/roberto2.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%; }
+
+header {
+  margin-left: -231px;
+  position: fixed;
+  display: inline-block;
+  background: #000;
+  padding: 20px 12px 15px;
+  border-bottom-right-radius: 4px;
+  box-shadow: 4px 11px 3px rgba(214, 214, 214, 0.4);
+  transition: all .3s ease-in-out; }
+  header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    display: block;
+    transition: all .3s ease-in-out;
+    letter-spacing: 3px; }
+    header a:hover {
+      color: #3FA5FF; }
+  header li {
+    margin: 17px 0; }
+  header ul {
+    padding: 12px 90px 0 0; }
+  header .nav_logo {
+    width: 100%;
+    border-bottom: 2px solid #3FA5FF;
+    padding-bottom: 7px; }
+
+.triangle {
+  position: absolute;
+  right: -54px;
+  top: 7%;
+  background-color: #000;
+  padding: 12px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px; }
+  .triangle_inner {
+    cursor: pointer;
+    border-left: 30px solid #fff;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    transition: all .3s ease-in-out; }
+    .triangle_inner:hover {
+      border-left: 30px solid #3FA5FF; }
+
+.triangle_active {
+  border-left: 30px solid #3FA5FF; }
+
+.margin_left_zero {
+  margin-left: 0; }
+
+.container {
+  max-width: 1240px;
+  width: 70%;
+  margin: 0 auto; }
+
+.center_items {
+  text-align: center; }
+
+.logo span {
+  color: #fff;
+  display: block;
+  text-transform: uppercase;
+  font-size: .8rem; }
+
+.sub_tagline {
+  font-size: 1.5rem; }
+
+.banner {
+  color: #fff;
+  margin-top: 100px; }
+
+.tagline {
+  font-size: 2rem; }
+
+.btn {
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  padding: 12px 22px;
+  text-transform: uppercase;
+  font-size: .8rem;
+  letter-spacing: 2px;
+  transition: all .3s ease-in-out; }
+  .btn:hover {
+    background: #0cafff; }
+
+/*# sourceMappingURL=style.css.map */
